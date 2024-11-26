@@ -1,0 +1,101 @@
+.permission-div{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.courses{
+    display: flex;
+    width: 100vw;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.course{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgba(234,164,6,255);
+    width: 40vw;
+    height: 30vw;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.course:hover{
+    cursor: pointer;
+}
+.course.active{
+    background-color: rgb(121, 64, 3);
+    
+}
+.calendar{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.inform-permission span{
+    margin-top: 10px;
+    color: white;
+}
+.send-permission{
+    height: 35px;
+    width: 20vw;
+    background-color: rgba(234,164,6,255);
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.popup{
+    position: absolute; /* To position the child element relative to the container */
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    background-color: rgb(90, 88, 88,0.5);
+}
+.popup-content{
+      position: relative; /* Makes this container the reference for positioning */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); /* Center the child */
+      text-align: center;
+      background-color: white;
+      border-radius: 10px;
+      width: 90%;
+      z-index: 1;
+}
+.popup-content textarea{
+    width: 94%;
+    height: 25vh;
+    border-radius: 5px;
+    border: solid gray;
+    border-width: 0.5px;
+    display: block;
+    margin-left: 2%;
+}
+.title-for-popup{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    padding: 10px;
+}
+.title-for-popup p{
+    cursor: pointer;
+}
+.popup-content button{
+    height: 35px;
+    width: 20vw;
+    background-color: rgba(234,164,6,255);
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    margin: 2px;  
+}
+

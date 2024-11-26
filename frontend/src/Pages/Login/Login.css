@@ -1,0 +1,43 @@
+.login-div{
+    width: 100vw;
+    height: 30vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo-div{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.login-div input{
+    height: 40px;
+    width: 70vw;
+    border-radius: 10px;
+    border: 0px;
+    margin-bottom: 20px;
+    background-color: rgba(234,164,6,255);
+    color: white;
+    text-align: center;
+}
+.login-div button{
+    height: 35px;
+    width: 20vw;
+    background-color: rgba(234,164,6,255);
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+}
+.login-div:hover{
+    cursor: pointer;
+}
+link{
+    text-decoration: none;
+}
+.logo{
+    width: 70vw;
+    height: 70vw;
+    margin-bottom: 20px;
+}
